@@ -1,0 +1,75 @@
+/*Stylesheet for index.html*/
+/*This is external CSS*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Krona One', sans-serif;
+}
+/*Header*/
+header{
+    background-image: url(https://www.ei3.com/wp-content/uploads/AdobeStock_167473640.jpeg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+img{
+    width:20%;/*This line resizes the image*/
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 3px 3px rgb(214, 7, 7);
+    font-weight: 700;
+}
+
+.title{
+    font-size: 25px;
+    color: #6d3b3b;
+    text-align: center;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: rgb(137, 137, 190);
+    width: 100px;
+    text-align: center;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h2{
+    margin:30px 0 20px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display:block;
+    width:200px;
+    height:200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+
